@@ -1,5 +1,16 @@
+# Ignore everything
+*
 
-nginx/
-dist/
+# But not these files...
+!.gitignore
+!.dockerignore
+!Dockerfile
+!Makefile
+!README.md
+# etc...
 
-LICENSE
+# ...even if they are in subdirectories
+#!*/
+
+# if the files to be tracked are in subdirectories
+!*/.gitkeep
