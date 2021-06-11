@@ -1,5 +1,5 @@
 
-nginx/nginx.conf
-*/.gitkeep
-
+nginx/
 dist/
+
+LICENSE
